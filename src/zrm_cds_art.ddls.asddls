@@ -4,8 +4,10 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'VISTA ART ARTE'
 @Metadata.ignorePropagatedAnnotations: true
+@Metadata.allowExtensions: true
 define view ZRM_CDS_ART as select from zrmr_tab_art
 {
+  //  key client as client,
     key id_art as IdArt,
     descr as Descr,
     desc2 as Desc2,
