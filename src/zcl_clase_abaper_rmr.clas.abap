@@ -18,6 +18,7 @@ CLASS zcl_clase_abaper_rmr IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
 
   out->write( 'Hola Mundo en Abap cloud' ).
+  out->write( 'Hola Mundo aprendiendo y cogiendo ritmo' ).
 
 
 
