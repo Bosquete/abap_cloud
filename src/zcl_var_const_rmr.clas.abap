@@ -12,7 +12,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_var_const_rmr IMPLEMENTATION.
+CLASS ZCL_VAR_CONST_RMR IMPLEMENTATION.
+
 
 METHOD if_oo_adt_classrun~main.
 
